@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/b1.png) no-repeat top center;
+   background: #161415 url(../images/header-background.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -325,35 +325,40 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 100%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+.ComputerProgramming {
+  	width: 40%;
+  	-moz-animation: ComputerProgramming 2s ease;
+  	-webkit-animation: ComputerProgramming 2s ease;
 }
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+.SoftwareDevelopment {
+  	width: 40%;
+  	-moz-animation: SoftwareDevelopment 2s ease;
+  	-webkit-animation: SoftwareDevelopment 2s ease;
 }
-.wordpress {
+.Java {
+  	width: 53%;
+  	-moz-animation: Java 2s ease;
+  	-webkit-animation: Java 2s ease;
+}
+.C {
+  	width: 45%;
+  	-moz-animation: C 2s ease;
+  	-webkit-animation: C 2s ease;
+}
+.Git {
+  	width: 40%;
+  	-moz-animation: Git 2s ease;
+  	-webkit-animation: Git 2s ease;
+}
+.DataStructures {
   	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: DataStructures 2s ease;
+  	-webkit-animation: DataStructures 2s ease;
 }
-.css {
-  	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
-}
-.html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
-}
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.SQL {
+  	width: 40%;
+  	-moz-animation: SQL 2s ease;
+  	-webkit-animation: SQL 2s ease;
 }
 
 @-moz-keyframes photoshop {
